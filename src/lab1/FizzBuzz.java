@@ -40,7 +40,7 @@ class FizzBuzz {
         }
     }
 
-    private static void FizzBuzzHelper(int i) {
+    public static void FizzBuzzHelper(int i) {
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
 
